@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  text-align: center;
+}
+.content {
+  margin: 0 auto;
+}
+.show-box {
+  width: 1200px;
+  height: 500px;
+  border: 1px solid #ccc; 
+}
+#please_text {
+  margin-top: 30px;
+}
+#send {
+  margin-top: 30px;
+}
+#clean {
+  margin-top: 30px;
+}
+.danmu {
+    position: fixed;
+    left: 100%;
+    animation: danmu 10s ease 0s 1;
+  }
+  @keyframes danmu {
+    from {
+      left: 100%;
+      transform: translateX(0);
+    }
+    to {
+      left: 0;
+      transform: translateX(-100%);
+    }
+  }
